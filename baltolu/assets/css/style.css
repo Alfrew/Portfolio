@@ -1,0 +1,44 @@
+#logo1 {
+    max-height: 50px;
+}
+#logo2 {
+    max-height: 50vh;
+    width: auto;
+}
+
+.navbar-dark {
+    background-color: #2c2b29;
+}
+
+.text-baltolu {
+    color: #2c2b29;
+}
+.bg-baltolu {
+    background-color: #2c2b29;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 25;
+    box-shadow: 0px 2px 5px #dc3545;
+}
+
+main {
+    margin-top: 76px;
+}
+
+#banner {
+    height: 50vh;
+    color: #eee;
+    background: linear-gradient(#00000070, #00000070), url(../img/baltoluBg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0px 0px 5px #000;
+}
+#banner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
